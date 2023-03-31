@@ -146,6 +146,9 @@ a {
 .toggle-planets a:hover {
   border-bottom: 2px solid white;
 }
+.toggle-planets a:active{
+  border-bottom: 2px solid white;
+}
 
 .col h3 {
   text-transform: uppercase;
