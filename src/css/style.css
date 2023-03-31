@@ -56,6 +56,7 @@ body{
   left: -700px;
   right: 0px;
   top:50px;
+  /* z-index: 9999; */
   background-color:rgba(255, 255, 255, 0.324);
 }
 a{
@@ -74,7 +75,7 @@ a{
   /* padding-right: 50px; */
 }
 .empty-spot{
-  width: 170px;
+  width: 160px;
   height: 100%;
 }
 .toggle-items a span{
@@ -118,7 +119,7 @@ letter-spacing: 25px;
 white-space: normal;
 font-weight: 400;
 }
-.col.col:first-of-type p{
+.col:first-of-type p{
   width: 64%;
   text-overflow: ellipsis;
   text-align: justify;
@@ -134,7 +135,7 @@ font-weight: 400;
   text-align: center;
   /* vertical-align: middle; */
   border-radius: 50%;
-  background-color: #f1f8ff;
+  background-color: #fcfcfc;
   display: flex;
   justify-content: center;
   align-items: center;
