@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-    <title>Frontend Mentor | Space tourism website | main page</title>
+    <title>Frontend Mentor | Space tourism website | nav</title>
     <link rel="stylesheet" href="src/css/style.css">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
     <!-- giving it the main looks so that I can populate it in the js later -->
     <!-- addition of  -->
-    <!-- <nav class="main-nav" id="nav-placeholder">
+    <nav class="main-nav" id="main-nav">
       <img src="assets/shared/logo.svg" alt="logo">
       <div class="wrapper">
         <div class="toggle-items" id="toggle-items">
@@ -25,31 +24,25 @@
             <span class="number">03</span> Technology </a>
           <p class="empty-spot">&nbsp</p>
         </div>
+  
+
       </div>
-    </nav> -->
-    <div id="nav-placeholder">
-
-    </div>
-
-    <div class="container" id="home">
-      <div class="row">
-        <div class="col">
-          <p class="top-speach">So, you want to travel to</p>
-          <h1>Space</h1>
-          <p>Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience! </p>
-        </div>
-        <div class="col">
-          <a href="#Explore">Explore</a>
-        </div>
+      <div class="burger-nav" id="burger-nav">
+       <button class="open"><img src="/starter-code/assets/shared/icon-hamburger.svg" alt=" burger icon"> </button> 
+       <button class="close"><img src="/starter-code/assets/shared/icon-close.svg" alt=" burger close" ></button> 
       </div>
+    </nav>
+    <div  id="my-links">
+      <a class="page" href="#">
+        <span class="number">00</span> Home </a> <br>
+      <a class="page"  href="templates/destination-mars.html">
+        <span class="number">01</span> Destination </a><br>
+      <a class="page"  href="templates/crew-commander.html">
+        <span class="number">02</span> Crew </a><br>
+      <a  class="page" href="templates/technology-capsule.html">
+        <span class="number">03</span> Technology </a><br>
+      <p class="empty-spot">&nbsp</p><br>
     </div>
-
-    <script>
-      $(function(){
-        $("#nav-placeholder").load("templates/nav.html");
-      });
-      </script>
-    <script src="src/js/index.js"></script>
-
+    <script src="/starter-code/src/js/index.js"></script>
   </body>
 </html>
