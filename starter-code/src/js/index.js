@@ -1,15 +1,7 @@
-const mainNavEl = document.getElementById('toggle-items');
-const burgerNavEl = document.querySelector('.burger-nav');
 const showNavEl = document.querySelector('.open');
 const hideNavEl = document.querySelector('.close');
 
 const mobileLinksEl=document.getElementById("my-links");
-
-console.log(mainNavEl);
-console.log(burgerNavEl);
-console.log(showNavEl);
-console.log(hideNavEl);
-
 
 function showLinks(){
   // create the links again under the header
