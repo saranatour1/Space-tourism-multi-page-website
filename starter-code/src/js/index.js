@@ -1,7 +1,13 @@
+// Mobile navigation bar
 const showNavEl = document.querySelector('.open');
 const hideNavEl = document.querySelector('.close');
 
 const mobileLinksEl=document.getElementById("my-links");
+
+
+// Main nav bar toggling 
+const mainNavEl =document.getElementById("toggle-items")
+
 
 function showLinks(){
   // create the links again under the header
@@ -21,3 +27,26 @@ function removeNavLinks(){
 
 showNavEl.addEventListener('click', showLinks );
 hideNavEl.addEventListener('click',removeNavLinks);
+
+
+
+
+function toggleBetweenEl() {
+
+  const activePage = mainNavEl.querySelector('.active');
+
+
+  if (activePage) {
+    activePage.classList.remove('active');
+  }
+
+
+  const nextPage = activePage ? activePage.nextElementSibling : mainNavEl.firstElementChild;
+  
+
+  if (nextPage) {
+    nextPage.classList.add('active');
+  }
+}
+
+toggleBetweenEl();
