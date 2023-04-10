@@ -87,3 +87,18 @@ The more specific you are with your questions the more likely it is that another
 We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
 
 **Have fun building!** 🚀
+
+folder structure ::
+--> Space-Tourism-Multipage-website
+|----> assets
+|     |----> css
+|     |     |----> style.css
+|     |----> images
+|     |     |----> background.jpg
+|     |----> js
+|     |     |----> script.js
+|----> templates
+|     |----> template1.html
+|     |----> template2.html
+|     |----> template3.html
+|----> index.html

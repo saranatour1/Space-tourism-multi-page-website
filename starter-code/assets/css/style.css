@@ -10,7 +10,7 @@
 /* Home page  and other pages  */
 body {
   /* Adding cover image */
-  background-image: url(/starter-code/assets/home/background-home-desktop.jpg);
+  background-image: url('../img/home/background-home-desktop.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -161,7 +161,7 @@ button{
 /* Media Query */
 @media only screen and (max-width: 768px) and (max-width: 1024px) {
   body {
-    background-image: url(/starter-code/assets/home/background-home-tablet.jpg);
+    background-image: url('/Space-tourism-multi-page-website/starter-code/assets/home/background-home-tablet.jpg');
   }
   .main-nav {
     padding-top: 20px;
@@ -251,7 +251,7 @@ button{
 
 @media only screen and (max-width: 700px){
   body{
-    background-image: url(/starter-code/assets/home/background-home-mobile.jpg);
+    background-image: url('/Space-tourism-multi-page-website/starter-code/assets/home/background-home-mobile.jpg');
   }
   .wrapper{
     display: none;
